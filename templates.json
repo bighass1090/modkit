@@ -1,0 +1,47 @@
+{
+  "cases": {
+    "hacked": {
+      "label": "Hacked account",
+      "reply": "Hello, {user}\n\nI can see there was activity from your account involving links that should not have been posted on the server. If you would like to proceed with an unban request, please provide a screenshot showing that you have recently changed your Discord password. The screenshot should include the date and time, along with any other relevant information that helps verify the change.\n\nI also strongly recommend enabling two-factor authentication (2FA) on your account for additional security. If you'd like, you may include proof that 2FA has been enabled as well.\n\nAs a general reminder, account security is your responsibility. Future incidents involving a compromised account may result in a longer or permanent ban, and appeals may be denied if reasonable steps have not been taken to secure the account.",
+      "note": "Hacked account case {date} - requested proof of password change, recommended 2FA - awaiting user response",
+      "unban_reason": null
+    },
+    "appeal_approved": {
+      "label": "Appeal approved",
+      "reply": "Hello, {user}\n\nThank you for providing the requested information. After reviewing your appeal, the moderation team has decided to lift your ban. Please take a moment to re-read the server rules, as future violations may result in a longer or permanent ban. This ticket will now be closed. Welcome back!",
+      "note": "Appeal approved {date} - proof of password change provided - unbanned and ticket closed",
+      "unban_reason": "Appeal approved - proof of account security provided"
+    },
+    "appeal_denied": {
+      "label": "Appeal denied",
+      "reply": "Hello, {user}\n\nAfter careful review of your appeal and the circumstances of your ban, the moderation team has decided to uphold the original decision. This decision is final for the time being. This ticket will now be closed. Thank you for your understanding.",
+      "note": "Appeal denied {date} - ban upheld - ticket closed",
+      "unban_reason": null
+    },
+    "general_inquiry": {
+      "label": "General inquiry",
+      "reply": "Hello, {user}\n\nThank you for reaching out to the modmail about this situation. The moderation team will look into what you mentioned and will get back to you.",
+      "note": "General inquiry {date} - acknowledged, under review",
+      "unban_reason": null
+    },
+    "cannot_support": {
+      "label": "Cannot support",
+      "reply": "Hello, {user}\n\nUnfortunately, this matter falls outside of what the moderation team is able to assist with through modmail.{extra} This ticket will now be closed. Thank you for understanding.",
+      "note": "Cannot support {date} - outside modmail scope - ticket closed",
+      "unban_reason": null
+    }
+  },
+  "mod_reasons": [
+    "scamming",
+    "spam",
+    "hacked account - posting malicious links",
+    "harassment",
+    "NSFW content",
+    "ban evasion",
+    "advertising / self-promotion",
+    "slurs / hate speech",
+    "inappropriate username or profile",
+    "Alt Accounts",
+    "12222"
+  ]
+}
