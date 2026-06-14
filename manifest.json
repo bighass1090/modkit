@@ -1,6 +1,1 @@
-{
-  "app_version": "1.0.0",
-  "data_version": 1,
-  "templates_url": "https://raw.githubusercontent.com/bighass1090/modkit/main/templates.json",
-  "download_url": "https://github.com/bighass1090/modkit/releases/latest"
-}
+{"app_version":"1.0.1","data_version":1,"templates_url":"https://raw.githubusercontent.com/bighass1090/modkit/main/templates.json","download_url":"https://github.com/bighass1090/modkit/releases/latest"}
